@@ -25,6 +25,6 @@ app.use(cors())
 app.use("/api/v1", router)
 const PORT=process.env.PORT || 5000
 //console.log(process.env.PORT)
-app.listen(5000,()=>{
-   console.log(`Server is running on http://localhost:${PORT}`);
+app.listen(PORT,()=>{
+   console.log(`User Server is running on http://localhost:${PORT}`);
 });

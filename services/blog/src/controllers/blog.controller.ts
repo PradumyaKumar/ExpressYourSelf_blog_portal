@@ -11,7 +11,7 @@ export const getAllBlogs=TryCatch(async(req,res)=>{
     const cached=await redisClient.get(cacheKey)
     if(cached)
     {
-        console.log("Server from from cached")
+        console.log("Server from cached")
         res.json(JSON.parse(cached))
         return ;
     }
@@ -57,6 +57,7 @@ export const getSingleBlog = TryCatch(async(req,res)=>{
      res.status(400).json({
         message:"no blog with this ID"
      })
+     return;
    }
 
    const {data} = await axios.get(`${process.env.USER_SERVICE}/api/v1/user/${blog[0]?.author}`)
