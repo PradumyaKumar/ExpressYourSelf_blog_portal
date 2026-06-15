@@ -1,11 +1,1 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/blog/[id]/page": "app/blog/[id]/page.js",
-  "/blog/new/page": "app/blog/new/page.js",
-  "/blog/saved/page": "app/blog/saved/page.js",
-  "/login/page": "app/login/page.js",
-  "/blog/edit/[id]/page": "app/blog/edit/[id]/page.js",
-  "/page": "app/page.js",
-  "/profile/[id]/page": "app/profile/[id]/page.js",
-  "/blogs/page": "app/blogs/page.js"
-}
+{}

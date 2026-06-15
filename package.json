@@ -1,0 +1,15 @@
+{
+  "name": "express-yourself",
+  "private": true,
+  "scripts": {
+    "frontend": "cd Frontend && npm run dev",
+    "author": "cd services/author && npm run dev",
+    "blog": "cd services/blog && npm run dev",
+    "social": "cd services/social && npm run dev",
+    "user": "cd services/user && npm run dev",
+    "start-all": "concurrently \"npm run frontend\" \"npm run author\" \"npm run blog\" \"npm run social\" \"npm run user\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
