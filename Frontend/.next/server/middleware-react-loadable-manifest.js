@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST='{"app\\\\blog\\\\edit\\\\[id]\\\\page.tsx -> jodit-react":{"id":3958,"files":["static/css/438fdb465b4091d2.css","static/chunks/958.1a2665ff3326f7b0.js"]},"app\\\\blog\\\\new\\\\page.tsx -> jodit-react":{"id":3958,"files":["static/css/438fdb465b4091d2.css","static/chunks/958.1a2665ff3326f7b0.js"]}}';

@@ -7,9 +7,18 @@
     "blog": "cd services/blog && npm run dev",
     "social": "cd services/social && npm run dev",
     "user": "cd services/user && npm run dev",
-    "start-all": "concurrently \"npm run frontend\" \"npm run author\" \"npm run blog\" \"npm run social\" \"npm run user\""
+
+    "build:frontend": "cd Frontend && npm run build",
+    "build:author": "cd services/author && npm run build",
+    "build:blog": "cd services/blog && npm run build",
+    "build:social": "cd services/social && npm run build",
+    "build:user": "cd services/user && npm run build",
+
+    "start-all": "concurrently \"npm run frontend\" \"npm run author\" \"npm run blog\" \"npm run social\" \"npm run user\"",
+
+    "build-all": "concurrently \"npm run build:frontend\" \"npm run build:author\" \"npm run build:blog\" \"npm run build:social\" \"npm run build:user\""
   },
   "devDependencies": {
-    "concurrently": "^9.2.1"
+    "concurrently": "^9.0.1"
   }
 }
